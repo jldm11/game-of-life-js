@@ -8,7 +8,7 @@ Clone the repository in your local machine or download the zip file.
 
 ### Prerequisities
 
-To run this program you only need a browser and internet conection to download mocha.js and chai.js libraries.
+To run this program you only need a browser and internet connection to download mocha.js and chai.js libraries.
 
 ### Installing and running
 
@@ -24,7 +24,7 @@ The page will show you three simple examples of the game, you only need to click
 
 This page is manipulated by runLife.js file
 ```
-js\runLifeljs
+js\runLife.js
 ```
 Which is using the classes Cell and Universe.
 
@@ -44,7 +44,7 @@ tests\testCell.js
 tests\testUniverse.js
 ```
 
-To run all the tests just open testRunner.html file
+To run all the tests just open testRunner.html file in your browser
 
 ```
 game-of-life-js\testRunner.html
