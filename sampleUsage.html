@@ -1,0 +1,26 @@
+<html>
+<head>
+  <meta charset="utf-8">
+  <title>Mocha Tests</title>
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+  <div class="samples">
+    <h1>Conway's Game of Life</h1>
+    <p>1 = Living Cell<br>0 = Dead Cell</p>
+    <h2>Random Pattern</h2>
+    <pre id="randomPtrnDisplay"></pre>
+    <button onclick="showNextGeneration(randomUniverse, 'randomPtrnDisplay')">Next Generation</button>
+    <h2>Repeat Pattern</h2>
+    <pre id="repeatPtrnDisplay"></pre>
+    <button onclick="showNextGeneration(repeatUniverse, 'repeatPtrnDisplay')">Next Generation</button>
+    <h2>Glider Pattern</h2>
+    <pre id="gliderPtrnDisplay"></pre>
+    <button onclick="showNextGeneration(gliderUniverse, 'gliderPtrnDisplay')">Next Generation</button>
+  </div>
+
+  <script src="js/universe.js"></script>
+  <script src="js/cell.js"></script>
+  <script src="js/runLife.js"></script>
+</body>
+</html>
